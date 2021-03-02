@@ -609,6 +609,12 @@ nav .nav-container .nav-sign-in {
   border: orange;
 }
 
+@media (max-width: 480px) {
+  .hero .titlebar {
+    width: 90vw;
+  }
+}
+
 .videocards {
   display: flex;
   flex-wrap: wrap;
@@ -637,8 +643,9 @@ nav .nav-container .nav-sign-in {
 
 @media (max-width: 480px) {
   .videocards .videocard {
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
+    text-align: center;
   }
 }
 
@@ -663,6 +670,14 @@ nav .nav-container .nav-sign-in {
   border: none;
   background: orange;
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  .videocards {
+    margin: 0 auto;
+    width: 90vw;
+    text-align: center;
+  }
 }
 
 .section {
@@ -791,8 +806,11 @@ nav .nav-container .nav-sign-in {
 
 @media (max-width: 480px) {
   .live .video {
-    height: 250px;
-    width: 90%;
+    height: 300px;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
 
@@ -800,6 +818,7 @@ nav .nav-container .nav-sign-in {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .live .controls .schedule {
@@ -850,6 +869,15 @@ nav .nav-container .nav-sign-in {
   padding: 10px 30px;
   color: white;
   margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .live .controls {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
 
 .live .chatsection {

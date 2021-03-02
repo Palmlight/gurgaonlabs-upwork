@@ -256,7 +256,14 @@ nav {
       background-color: $orange;
       border: $orange;
     }
+
+    @media (max-width: $mobile) {
+        width: 90vw;
+    }
+
   }
+
+
 }
 
 .videocards {
@@ -285,8 +292,9 @@ nav {
     }
 
     @media (max-width: $mobile) {
-      width: 80%;
+      width: 90%;
       margin: 20px auto;
+      text-align: center;
     }
 
     .thumbnail {
@@ -311,6 +319,12 @@ nav {
         color: $white;
       }
     }
+  }
+
+  @media (max-width: $mobile) {
+    margin: 0 auto;
+    width: 90vw;
+    text-align: center;
   }
 }
 
@@ -440,8 +454,11 @@ nav {
         margin-bottom: 30px;
 
         @media (max-width: $mobile) {
-            height: 250px;
-            width: 90%;
+            height: 300px;
+            width: 80vw;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 30px;
         }
     }
 
@@ -450,6 +467,7 @@ nav {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 30px;
+    text-align: center;
     .schedule {
         background: skyblue;
         outline: 0;
@@ -500,6 +518,14 @@ nav {
         color: white;
         margin-bottom: 10px;
       }
+
+      @media (max-width: $mobile) {
+        width: 80vw;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
   }
 
   .chatsection {
