@@ -627,6 +627,14 @@ nav .nav-container .nav-sign-in {
   margin-right: 0;
 }
 
+.videocards .videocard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 @media (max-width: 480px) {
   .videocards .videocard {
     width: 80%;
@@ -882,6 +890,14 @@ nav .nav-container .nav-sign-in {
   .video-page {
     flex-direction: column;
   }
+}
+
+.videos-live {
+  width: 100%;
+}
+
+.videos-live .video-live {
+  width: 100%;
 }
 
 footer {

@@ -275,6 +275,15 @@ nav {
       margin-right: 0;
     }
 
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+    }
+
     @media (max-width: $mobile) {
       width: 80%;
       margin: 20px auto;
@@ -534,6 +543,16 @@ nav {
 
     @media (max-width: $mobile) {
         flex-direction: column;
+    }
+}
+
+
+.videos-live {
+    width: 100%;
+
+
+    .video-live {
+        width: 100%;
     }
 }
 
