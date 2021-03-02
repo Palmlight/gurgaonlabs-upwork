@@ -900,6 +900,10 @@ nav .nav-container .nav-sign-in {
   width: 100%;
 }
 
+.bigger {
+  width: 80%;
+}
+
 footer {
   background: gray;
   padding: 1.5rem 0;
